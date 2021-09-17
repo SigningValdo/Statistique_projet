@@ -1,0 +1,21 @@
+/*.description{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+.image{
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+}
+.diagramme{
+    height:400px;
+    width: 400px;
+}
+.posts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1000px;
+    width:100% ;
+}*/
