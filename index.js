@@ -1,7 +1,7 @@
 var page_id = "164249414233789";
 var page_access_token = "EAAFfZBhdrndkBAOeEV6Ihmg7YGdIpEwh9tzUQH50ZCGu2ovjZAYnusIH9KuZAAXoolPAvcUU8Mkw8LetfZCVCogJS41087laQQ4rVkZBe9Gy38MbzcLDHWWaji4CdWhYktAfwdc3kctc2k0LK8Qyc1OHV2lz3y1SjPRRr6UWR1RPAfrVRdwhGZB"
-const infos_sur_les_posts = "https://graph.facebook.com/"+page_id+"/feed?period=month&access_token="+page_access_token+"&fields=attachments,likes.summary(true),comments.summary(true),shares";
 const infos_sur_la_page = "https://graph.facebook.com/"+page_id+"/insights?metric=page_fan_adds,page_views_total,page_impressions_unique&period=month&access_token="+page_access_token;
+const infos_sur_les_posts = "https://graph.facebook.com/"+page_id+"/feed?period=month&access_token="+page_access_token+"&fields=attachments,likes.summary(true),comments.summary(true),shares";
 const profil_page = "https://graph.facebook.com/"+page_id+"/picture"
 
 let post_traitement ;
@@ -232,17 +232,3 @@ const page_search = async() =>{
     } )
 }    
 page_search();
-/*
-test = {"a":1, "b":2}
-{a: 1, b: 2}
-for (var key in test) {
-   console.log(key) }
-a
-b
-undefined
-for (var key in test) {   
-console.log(test[key])
-}
-1
-2
-*/

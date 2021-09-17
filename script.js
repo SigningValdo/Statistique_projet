@@ -1,5 +1,5 @@
 var page_id = "164249414233789";
-var page_access_token = "EAAFfZBhdrndkBAOeEV6Ihmg7YGdIpEwh9tzUQH50ZCGu2ovjZAYnusIH9KuZAAXoolPAvcUU8Mkw8LetfZCVCogJS41087laQQ4rVkZBe9Gy38MbzcLDHWWaji4CdWhYktAfwdc3kctc2k0LK8Qyc1OHV2lz3y1SjPRRr6UWR1RPAfrVRdwhGZB"
+var page_access_token = "EAAFfZBhdrndkBAIrQ2COlHLLIoz2uF3RNMLw2lWCZAnAxRojbZAPybDt3UkdAL10axetq6GHCwwRNrJiDxgZBFcPiKGoWdZAUWPTTcXQ6ZC01AbN9cZC0jNMSv3RXKpoqx1ZA4dpz9lHznEX16lI0Xx1aXA0kFsJdNf9dqzwvZA36Jkj5ReA6hkp3"
 const infos_sur_les_posts = "https://graph.facebook.com/"+page_id+"/feed?period=month&access_token="+page_access_token+"&fields=attachments,likes.summary(true),comments.summary(true),shares";
 const infos_sur_la_page = "https://graph.facebook.com/"+page_id+"/insights?metric=page_fan_adds,page_views_total,page_impressions_unique&period=month&access_token="+page_access_token;
 const profil_page = "https://graph.facebook.com/"+page_id+"/picture"
